@@ -1,4 +1,14 @@
 {
+  "name": "payetonkawa-webshop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.52.0",
     "@types/react": "^19.1.8",
